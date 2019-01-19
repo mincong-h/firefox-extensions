@@ -1,0 +1,20 @@
+{
+  "name": "Ads Eraser",
+  "description": "Erase ads from the current page.",
+  "version": "2.0.0",
+  "incognito": "spanning",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "eraser.png",
+    "default_title": "Erase Ads"
+  },
+  "icons": {
+    "128": "eraser.png"
+  },
+  "manifest_version": 2
+}

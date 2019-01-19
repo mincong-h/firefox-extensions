@@ -1,0 +1,17 @@
+{
+  "name": "Nuxeo Developer",
+  "description": "Open Nuxeo tabs in one click.",
+  "version": "1.1.0",
+  "incognito": "spanning",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "nuxeo-icon.png",
+    "default_title": "Open Nuxeo tabs"
+  },
+  "icons": {
+    "50": "nuxeo-icon.png"
+  },
+  "manifest_version": 2
+}
